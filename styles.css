@@ -1,0 +1,75 @@
+main {
+  width: 1280px;
+  height: 800px;
+  background-color: #FFFFFF;
+  line-height: 0;
+  font-family: normal normal bold 30px/42px Source Han Sans JP;;
+}
+
+img{
+  width: 360px;
+  height: 360px;
+}
+
+.cade {
+  width: 1160px;
+  height: 608px;
+}
+
+.cade-item {
+  width: 1160px;
+  height: 570px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.cade ul {
+  margin-left:  auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list-item {
+  background-color: #CDD6DD;
+  width: 360px;
+  height: 260px;
+}
+
+.cade h1 {
+  color: #3B4043;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.cade p {
+  width: 280px;
+  height: 66px;
+  color: #3B4043;
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 41px;
+  letter-spacing: 0px;
+  overflow: hidden;
+  text-overflow: clip;
+  line-height: 2;
+}
+
+.cade h2 {
+  font-size: 12px;
+  color: #98A6B5;
+  text-align: center;
+  padding-bottom: 42px;
+  margin-bottom: 90px;
+
+}
